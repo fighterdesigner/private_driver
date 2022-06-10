@@ -22,19 +22,40 @@ class _SlideScreensState extends State<SlideScreens> {
 
     slides.add(
       new Slide(
-        title: "Choisissez",
-        styleTitle: TextStyle(
-            color: Colors.black,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
-        description: "Votre destination et votre véhicule.",
-        styleDescription: TextStyle(
-            color: Colors.black,
-            fontSize: 20.0,
-            fontStyle: FontStyle.normal,
-            fontFamily: 'RobotoMono'),
-        centerWidget: SizedBox(width: 300, child: Image.asset('images/1.png')),
+        centerWidget: Column(
+          children: [
+            SizedBox(
+              width: 100,
+              child: Image.asset("images/logo.png"),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SizedBox(width: 300, child: Image.asset('images/1.png')),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              "Choisissez",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'RobotoMono'),
+            ),
+            SizedBox(
+              height: 8,
+            ),
+            Text(
+              "Votre destination et votre véhicule.",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontStyle: FontStyle.normal,
+                  fontFamily: 'RobotoMono'),
+            )
+          ],
+        ),
         backgroundColor: Colors.white,
         directionColorBegin: Alignment.topRight,
         directionColorEnd: Alignment.bottomLeft,
@@ -42,19 +63,40 @@ class _SlideScreensState extends State<SlideScreens> {
     );
     slides.add(
       new Slide(
-        title: "Réservez",
-        styleTitle: TextStyle(
-            color: Colors.black,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
-        description: "en ligne (Paiement en Cash).",
-        styleDescription: TextStyle(
-            color: Colors.black,
-            fontSize: 20.0,
-            fontStyle: FontStyle.normal,
-            fontFamily: 'RobotoMono'),
-        centerWidget: SizedBox(width: 300, child: Image.asset('images/2.png')),
+        centerWidget: Column(
+          children: [
+            SizedBox(
+              width: 100,
+              child: Image.asset("images/logo.png"),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SizedBox(width: 300, child: Image.asset('images/2.png')),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              "Réservez",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'RobotoMono'),
+            ),
+            SizedBox(
+              height: 8,
+            ),
+            Text(
+              "en ligne (Paiement en Cash).",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontStyle: FontStyle.normal,
+                  fontFamily: 'RobotoMono'),
+            )
+          ],
+        ),
         backgroundColor: Colors.white,
         directionColorBegin: Alignment.topRight,
         directionColorEnd: Alignment.bottomLeft,
@@ -62,19 +104,40 @@ class _SlideScreensState extends State<SlideScreens> {
     );
     slides.add(
       new Slide(
-        title: "Confirmation",
-        styleTitle: TextStyle(
-            color: Colors.black,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
-        description: "Par mail de votre course.",
-        styleDescription: TextStyle(
-            color: Colors.black,
-            fontSize: 20.0,
-            fontStyle: FontStyle.normal,
-            fontFamily: 'RobotoMono'),
-        centerWidget: SizedBox(width: 300, child: Image.asset('images/3.png')),
+        centerWidget: Column(
+          children: [
+            SizedBox(
+              width: 100,
+              child: Image.asset("images/logo.png"),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SizedBox(width: 300, child: Image.asset('images/3.png')),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              "Confirmation",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'RobotoMono'),
+            ),
+            SizedBox(
+              height: 8,
+            ),
+            Text(
+              "Par mail de votre course.",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontStyle: FontStyle.normal,
+                  fontFamily: 'RobotoMono'),
+            )
+          ],
+        ),
         backgroundColor: Colors.white,
         directionColorBegin: Alignment.topRight,
         directionColorEnd: Alignment.bottomLeft,
@@ -82,19 +145,40 @@ class _SlideScreensState extends State<SlideScreens> {
     );
     slides.add(
       new Slide(
-        title: "Profitez",
-        styleTitle: TextStyle(
-            color: Colors.black,
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'RobotoMono'),
-        description: "de votre trajet avec El Mouhajir.",
-        styleDescription: TextStyle(
-            color: Colors.black,
-            fontSize: 20.0,
-            fontStyle: FontStyle.normal,
-            fontFamily: 'RobotoMono'),
-        centerWidget: SizedBox(width: 300, child: Image.asset('images/4.png')),
+        centerWidget: Column(
+          children: [
+            SizedBox(
+              width: 100,
+              child: Image.asset("images/logo.png"),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SizedBox(width: 300, child: Image.asset('images/4.png')),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              "Profitez",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'RobotoMono'),
+            ),
+            SizedBox(
+              height: 8,
+            ),
+            Text(
+              "de votre trajet avec El Mouhajir.",
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20.0,
+                  fontStyle: FontStyle.normal,
+                  fontFamily: 'RobotoMono'),
+            )
+          ],
+        ),
         backgroundColor: Colors.white,
         directionColorBegin: Alignment.topCenter,
         directionColorEnd: Alignment.bottomCenter,
