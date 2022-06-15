@@ -15,29 +15,6 @@
       "filename" : "LaunchImage@3x.jpg",
       "scale" : "3x"
     }
-    ,
-    {
-      "idiom" : "universal",
-      "filename" : "LaunchImage@3x@3x.jpg",
-      "scale" : "1x"
-    }
-    ,
-    {
-      "idiom" : "universal",
-      "filename" : "LaunchImage@3x@2x.jpg",
-      "scale" : "1x"
-    }
-    ,
-    {
-      "idiom" : "universal",
-      "filename" : "LaunchImage@2x@3x.jpg",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "LaunchImage@2x@2x.jpg",
-      "scale" : "1x"
-    }
   ],
   "info" : {
     "version" : 1,
