@@ -25,7 +25,7 @@ class _SlideScreensState extends State<SlideScreens> {
         centerWidget: Column(
           children: [
             SizedBox(
-              width: 100,
+              width: 200,
               child: Image.asset("images/logo.png"),
             ),
             SizedBox(
@@ -66,7 +66,7 @@ class _SlideScreensState extends State<SlideScreens> {
         centerWidget: Column(
           children: [
             SizedBox(
-              width: 100,
+              width: 200,
               child: Image.asset("images/logo.png"),
             ),
             SizedBox(
@@ -107,7 +107,7 @@ class _SlideScreensState extends State<SlideScreens> {
         centerWidget: Column(
           children: [
             SizedBox(
-              width: 100,
+              width: 200,
               child: Image.asset("images/logo.png"),
             ),
             SizedBox(
@@ -148,7 +148,7 @@ class _SlideScreensState extends State<SlideScreens> {
         centerWidget: Column(
           children: [
             SizedBox(
-              width: 100,
+              width: 200,
               child: Image.asset("images/logo.png"),
             ),
             SizedBox(

@@ -38,7 +38,7 @@ class _MainPageState extends State<MainPage> {
       body: Builder(builder: (BuildContext context) {
         return SafeArea(
             child: WebView(
-          initialUrl: 'https://mobile.private-driver.ma',
+          initialUrl: 'https://mobile.private-driver.ma?page=1',
           javascriptMode: JavascriptMode.unrestricted,
           onWebViewCreated: (WebViewController webViewController) async {
             _controller.complete(webViewController);
